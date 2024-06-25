@@ -40,7 +40,7 @@ const ResponsiveImage = () => {
         <p className="text-2xl mb-8 text-blue-900 text-justify space-x-5">
        
             <br/>   
-            <b>Regla CSS para Image en pantalla movil ➡️ <i>block md:hidden</i></b> ➡️ muestra este elemento, pero cuando su tamano sea <b>md:</b> o sea cuando el ancho de la pantalla sea igual o mayor a 768px., oculta este elemento.
+            <b>Regla CSS para image en pantalla movil ➡️ <i>block md:hidden</i></b> ➡️ muestra este elemento, pero cuando su tamano sea <b>md:</b> o sea cuando el ancho de la pantalla sea igual o mayor a 768px., oculta este elemento.
             <br/>   
             <br/>   
             <b>block:</b> Esta clase aplica <i>display: block;</i> al elemento. Esto significa que el elemento será visible y ocupará todo el ancho disponible de su contenedor padre.
