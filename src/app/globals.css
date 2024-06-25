@@ -18,11 +18,13 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: rgb(3, 3, 72)
+  background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,0.9949229691876751) 0%, rgba(255,255,255,0.9949229691876751) 20%, rgba(2,27,169,0.9949229691876751) 41%, rgba(2,0,136,1) 48%, rgba(3,11,113,1) 51%, rgba(0,0,0,1) 83%, rgba(0,0,0,1) 100%);
   }
   
   body *{
-  margin: 10px;
+  margin-left: 1vw;
+  margin-right: 1vw;
 
 }
 
