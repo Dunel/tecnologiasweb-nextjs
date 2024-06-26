@@ -10,11 +10,11 @@ const ResponsiveImage = () => {
         <p className="text-2xl mb-8 text-blue-900 text-justify">
             Next.js optimiza automáticamente las imágenes, cargando solo las necesarias para el viewport actual y redimensionándolas según la resolución de la pantalla, usando clases de Tailwind CSS:
             <br/>  
-            <div className="text-center">
+           
             <b><i>block md:hidden</i></b>      
             <br/>  
             <b><i>hidden md:block</i></b>      
-            </div>
+         
         </p>
 
         <div className="relative w-100 h-screen text-center">
@@ -22,16 +22,20 @@ const ResponsiveImage = () => {
             <Image
                 src="https://procinal.com/uploads/PELICULAS/Img_movies/Img_360x500/360%20X%20500intensamente2.jpg"
                 alt="Mobile Image"
-                layout="fill"
-                objectFit="cover"
+                fill
+                style={{ objectFit: 'cover' }}
+                priority
+                sizes="100%"
                 className="w-full h-full block md:hidden"
             />
        
             <Image
                 src="https://i0.wp.com/www.homosensual.com/wp-content/uploads/2024/06/test-que-personaje-emocion-de-intensamente-eres-disney-2.jpg?fit=1280%2C720&ssl=1"
                 alt="Desktop Image"
-                layout="fill"
-                objectFit="cover"
+                fill
+                style={{ objectFit: 'cover' }}
+                priority
+                sizes="100%"
                 className="w-full h-full hidden md:block"
             />
           
