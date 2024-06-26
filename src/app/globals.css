@@ -23,8 +23,8 @@ background: linear-gradient(0deg, rgba(255,255,255,0.9949229691876751) 0%, rgba(
   }
   
   body *{
-  margin-left: 1vw;
-  margin-right: 1vw;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
 
 }
 
